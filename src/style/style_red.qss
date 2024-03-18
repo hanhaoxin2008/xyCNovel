@@ -1,0 +1,108 @@
+QMainWindow{
+    background-color: #ffffff;
+}
+
+QPushButton{
+    background-color: #ffffff;
+    border: 1px solid #d64541;
+}
+
+
+QPushButton:hover{
+    background-color: #d64541;
+    color: #ffffff;
+}
+
+QGroupBox{
+    border-top: 20px solid #ffffff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#leftWidget{
+    border-right: 1px solid #3b4252;
+
+}
+
+QLineEdit{
+    background-color: #f6d9d9;
+}
+
+QComboBox{
+    background-color: #f6d9d9;
+    border: none;
+    border-radius: 5px;
+}
+
+QComboBox QAbstractItemView::item {
+    border-radius: 5px;
+
+}
+
+
+
+
+QComboBox QAbstractItemView::item:hover {
+    color: #FFFFF0;
+	background-color: #d64541;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    color: #FFFFF0;
+	background-color: #d64541;
+}
+
+#add_website_button{
+    background-color: #d64541;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#open_btn{
+    background-color: #d64541;
+    color: #ffffff;
+}
+
+QTableView{
+    selection-background-color: #d64541;
+
+}
+
+QTableView::item:selected {
+    color: #ffffff;
+    background: #d64541;
+}
+QTableView::item:hover {
+    color: #ffffff;
+    background: #d64541;
+}
+QTableView::item {
+    padding: 5px;
+    margin: 0px;
+}
+
+#save_btn{
+
+    background-color: #d64541;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#detail_test_button{
+    background-color: #d64541;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#add_rule_button{
+    background-color: #d64541;
+    color: #ffffff;
+    border-radius: 5px;
+}
+QTextEdit{
+    background-color: #f6d9d9;
+    border-radius: 5px;
+}
+#testButton{
+    background-color: #d64541;
+    color: #ffffff;
+    border-radius: 5px;
+}

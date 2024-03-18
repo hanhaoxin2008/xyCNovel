@@ -1,0 +1,65 @@
+{
+    "common1": {
+        "desc": "默认的规则",
+        "list_rule": {},
+        "detail_rule": {
+            "name": {
+                "type": "xpath",
+                "value": ""
+            },
+            "author": {
+                "type": "xpath",
+                "value": ""
+            },
+            "desc": {
+                "type": "xpath",
+                "value": ""
+            },
+            "update": {
+                "type": "xpath",
+                "value": ""
+            },
+            "last": {
+                "type": "xpath",
+                "value": ""
+            },
+            "last_href": {
+                "type": "xpath",
+                "value": ""
+            }
+        }
+    },
+    "笔趣阁": {
+        "detail_rule": {
+            "name": {
+                "type": "xpath",
+                "value": "//h1/text()"
+            },
+            "author": {
+                "type": "xpath",
+                "value": "//body/div[4]/div[2]/div[2]/span[1]/text()"
+            },
+            "update": {
+                "type": "xpath",
+                "value": "//body/div[4]/div[2]/div[2]/span[3]/text()"
+            },
+            "last": {
+                "type": "xpath",
+                "value": "//body/div[4]/div[2]/div[2]/span[4]/a/text()"
+            },
+            "last_href": {
+                "type": "xpath",
+                "value": "//body/div[4]/div[2]/div[2]/span[4]/a/@href"
+            },
+            "type": {
+                "type": "xpath",
+                "value": "/html/body/div[4]/div[2]/div[2]/span[2]/text()"
+            },
+            "desc": {
+                "type": "xpath",
+                "value": "/html/body/div[4]/div[2]/div[4]/dl/dd/text()"
+            }
+        },
+        "desc": "笔趣阁规则"
+    }
+}
